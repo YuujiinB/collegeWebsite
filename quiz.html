@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Assessment Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">Wellness Platform</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login/Register</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="therapists.html">Therapists</a></li>
+                <li><a href="quiz.html">Self-Assessment Quiz</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Self-Assessment Quiz</h1>
+            <p>Take our quick mental health assessment</p>
+        </section>
+
+        <div class="quiz-progress">
+            <div class="quiz-progress-bar"></div>
+        </div>
+
+        <section class="quiz-container">
+            <div class="question active">
+                <h2>How often do you feel stressed or anxious?</h2>
+                <div class="button-container">
+                    <button class="answer-btn btn-option">Never</button>
+                    <button class="answer-btn btn-option">Sometimes</button>
+                    <button class="answer-btn btn-option">Often</button>
+                </div>
+            </div>
+
+            <div class="question">
+                <h2>How would you rate your sleep quality?</h2>
+                <div class="button-container">
+                    <button class="answer-btn btn-option">Excellent</button>
+                    <button class="answer-btn btn-option">Average</button>
+                    <button class="answer-btn btn-option">Poor</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wellness Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
